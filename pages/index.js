@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import Header from "../components/header";
@@ -25,10 +25,7 @@ export default function Home() {
           <Link href="/sobre">
             <a className={styles.card}>
               <h3>Sobre</h3>
-              <p>
-                Sem o clichê de <i>tomar um café</i>, aqui você pode falar
-                comigo.
-              </p>
+              <p>Um resumo sobre essa pessoa incrível que vos escreve.</p>
             </a>
           </Link>
 

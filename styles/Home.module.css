@@ -73,10 +73,25 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   max-width: 750px;
   margin: 0 auto;
   margin-top: 15px;
+}
+
+.bodyabout {
+  max-width: 800px;
+  margin-top: 3rem;
+  padding: 0px 20px;
+}
+
+.bodyabout p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.bodyabout p a {
+  color: #0070f3;
 }
 
 .code {
@@ -126,6 +141,13 @@
   margin-right: 3px;
 }
 
+.cardtimeline p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
 .cardtimeline a {
   color: #0070f3;
 }
@@ -140,6 +162,12 @@
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .card p {

@@ -29,7 +29,12 @@ export default function Timeline() {
               <a target="_blank" href="https://herocontent.vercel.app">
                 Hero Content
               </a>
-              , uma empresa de criação de conteúdos digitais para PMEs.
+              . ❤️
+            </p>
+
+            <p>
+              <i class="far fa-check-circle"></i> Ingressei no curso de ADS na
+              UNESA.
             </p>
           </div>
 
@@ -138,8 +143,8 @@ export default function Timeline() {
           <div className={styles.cardtimeline}>
             <h3>2010</h3>
             <p>
-              <i class="far fa-check-circle"></i> Comecei a estudar matemática
-              na UFRJ. 🔥
+              <i class="far fa-check-circle"></i> Ingressei no curso de
+              matemática na UFRJ. 🔥
             </p>
 
             <p>
