@@ -22,16 +22,9 @@ export default function Home() {
         <p className={styles.description}>Programador e Criador de Conteúdo</p>
 
         <div className={styles.grid}>
-          <Link href="/timeline">
+          <Link href="/sobre">
             <a className={styles.card}>
-              <h3>Linha do tempo</h3>
-              <p>A forma mais simples de você conhecer a minha história.</p>
-            </a>
-          </Link>
-
-          <Link href="/contato">
-            <a className={styles.card}>
-              <h3>Painel</h3>
+              <h3>Sobre</h3>
               <p>
                 Sem o clichê de <i>tomar um café</i>, aqui você pode falar
                 comigo.
@@ -53,6 +46,13 @@ export default function Home() {
                 Veja todos os artigos que já escrevi sobre tecnologia e
                 conteúdo.
               </p>
+            </a>
+          </Link>
+
+          <Link href="/timeline">
+            <a className={styles.card}>
+              <h3>Linha do tempo</h3>
+              <p>A forma mais simples de você conhecer a minha história.</p>
             </a>
           </Link>
 

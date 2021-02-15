@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Feito com ❤️ por Scafeli
+          Feito com ❤️ por Gustavo Scafeli
         </a>
       </footer>
     </>

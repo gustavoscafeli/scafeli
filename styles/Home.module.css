@@ -152,9 +152,11 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 670px) {
+  .card {
+    flex-basis: 94%;
+  }
+  .cardtimeline p {
+    line-height: 30px;
   }
 }

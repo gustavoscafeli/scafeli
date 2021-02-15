@@ -18,48 +18,40 @@ export default function Projetos() {
 
         <h1 className={styles.sectitle}>Projetos</h1>
 
-        <p className={styles.description}>Programador e Criador de Conteúdo</p>
+        <p className={styles.description}>
+          Alguns dos projetos em que invisto o meu tempo.
+        </p>
 
         <div className={styles.grid}>
-          <Link href="/timeline">
+          <Link href="/projetos/herocontent">
             <a className={styles.card}>
               <h3>Hero Content</h3>
-              <p>A forma mais simples de você conhecer a minha história.</p>
+              <p>Produtora de conteúdos digitais para PMEs e agências.</p>
             </a>
           </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>RR Catálogo</h3>
-            <p>Uma lista de projetos em que trabalhei / estou trabalhando.</p>
-          </a>
+          <Link href="/projetos/projetomed">
+            <a className={styles.card}>
+              <h3>Projeto Med</h3>
+              <p>
+                Plataforma de ensino gratuita para vestibulandos de Medicina.
+              </p>
+            </a>
+          </Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>SDA Catálogo</h3>
-            <p>
-              Veja todos os artigos que já escrevi sobre tecnologia e conteúdo.
-            </p>
-          </a>
+          <Link href="/projetos/herocontent">
+            <a className={styles.card}>
+              <h3>Na Sacola</h3>
+              <p>Catálogo digital descomplicado e personalizável para PMEs.</p>
+            </a>
+          </Link>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Loja</h3>
-            <p>Aqui estão os cursos, livros e produtos que eu indico.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Contato</h3>
-            <p>
-              Sem o clichê de <i>tomar um café</i>, aqui você pode falar comigo.
-            </p>
-          </a>
+          <Link href="/projetos/bannedtheme">
+            <a className={styles.card}>
+              <h3>Banned WP Theme</h3>
+              <p>Tema WordPress (WooCommerce) com estilo minimalista.</p>
+            </a>
+          </Link>
         </div>
       </main>
 

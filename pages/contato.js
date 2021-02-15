@@ -22,45 +22,11 @@ export default function Contato() {
         <p className={styles.description}>Programador e Criador de Conteúdo</p>
 
         <div className={styles.grid}>
-          <Link href="/timeline">
-            <a className={styles.card}>
-              <h3>Timeline</h3>
-              <p>A forma mais simples de você conhecer a minha história.</p>
-            </a>
-          </Link>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Projetos</h3>
-            <p>Uma lista de projetos em que trabalhei / estou trabalhando.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Blog</h3>
-            <p>
-              Veja todos os artigos que já escrevi sobre tecnologia e conteúdo.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Loja</h3>
-            <p>Aqui estão os cursos, livros e produtos que eu indico.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Contato</h3>
-            <p>
-              Sem o clichê de <i>tomar um café</i>, aqui você pode falar comigo.
-            </p>
-          </a>
+          <ul>
+            <li>Email</li>
+            <li>Github</li>
+            <li>LinkedIn</li>
+          </ul>
         </div>
       </main>
 
