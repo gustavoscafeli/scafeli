@@ -52,7 +52,7 @@ export default function Home() {
           <Link href="/timeline">
             <a className={styles.card}>
               <h3>Linha do tempo</h3>
-              <p>A forma mais simples de você conhecer a minha história.</p>
+              <p>A forma mais simples de você conhecer a minha trajetória.</p>
             </a>
           </Link>
 
@@ -60,16 +60,6 @@ export default function Home() {
             <a className={styles.card}>
               <h3>Loja</h3>
               <p>Aqui estão os cursos, livros e produtos que eu indico.</p>
-            </a>
-          </Link>
-
-          <Link href="/contato">
-            <a className={styles.card}>
-              <h3>Contato</h3>
-              <p>
-                Sem o clichê de <i>tomar um café</i>, aqui você pode falar
-                comigo.
-              </p>
             </a>
           </Link>
         </div>

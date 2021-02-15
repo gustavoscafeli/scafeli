@@ -5,6 +5,8 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
+// import TopTracks from "../components/TopTracks";
+
 export default function Sobre() {
   return (
     <div className={styles.container}>
@@ -15,35 +17,37 @@ export default function Sobre() {
 
       <main className={styles.main}>
         <Header />
+
+        {/* <TopTracks /> */}
+
         <h1 className={styles.sectitle}>Sobre</h1>
 
         <p className={styles.description}>
-          Minha trajetória pessoal e profissional de forma resumida.
+          Você encontrou minha fatia pessoal da internet :)
         </p>
 
-        <div className={styles.grid}>
-          <div className={styles.cardtimeline}>
-            <h3>2020</h3>
-            <p>
-              <i class="far fa-check-circle"></i> Criei a{" "}
-              <a target="_blank" href="https://herocontent.vercel.app">
-                Hero Content
-              </a>
-              , uma empresa de criação de conteúdos digitais para PMEs.
-            </p>
-          </div>
+        <p className={styles.description}>
+          Nascido na cidade de{" "}
+          <a target="_blank" href="https://pt.wikipedia.org/wiki/Itaboraí">
+            Itaboraí
+          </a>
+          , na Região Metropolitana do Rio de Janeiro, eu tive muita sorte de me
+          envolver a tecnologia na infância.
+        </p>
 
-          <div className={styles.cardtimeline}>
-            <h3>2000</h3>
-            <p>
-              <i class="far fa-check-circle"></i> Meu primeiro computador.
-            </p>
-            <p>
-              <i class="far fa-check-circle"></i> Iniciei a jornada para me
-              tornar um mestre Pokémon.
-            </p>
-          </div>
-        </div>
+        <p className={styles.description}>
+          Já são mais de 10 anos trabalhando com programação, isso consegui
+          adquirir um tipo raro de experiência. O meu trabalho foi desde
+          agências à multinacionais, do setor educacional ao entretenimanto, da
+          cobertura nacional à internacional.
+        </p>
+
+        <p className={styles.description}>
+          Sou grato a cada gestor que me deu uma oportunidade, a cada líder que
+          me ensinou e a cada "pequeno" cliente que atendi como freelancer.{" "}
+        </p>
+
+        <p className={styles.description}>É apenas o começo.</p>
       </main>
 
       <Footer />

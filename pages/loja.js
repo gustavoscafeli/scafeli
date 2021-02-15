@@ -66,6 +66,48 @@ export default function Loja() {
               </p>
             </a>
           </Link>
+
+          <Link href="https://www.amazon.com.br/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?__mk_pt_BR=ÅMÅŽÕÑ&dchild=1&keywords=clean+code&qid=1613356977&sr=8-1">
+            <a target="_blank" className={styles.card}>
+              <h3>Livro Clean Code, Robert C. Martin</h3>
+              <p>
+                Você lerá códigos aqui, muitos códigos. E você deverá descobrir
+                o que está correto e errado nos códigos.
+              </p>
+            </a>
+          </Link>
+
+          <Link href="https://www.amazon.com.br/Refactoring-Improving-Design-Existing-Code/dp/0134757599/ref=pd_sim_2?pd_rd_w=3PVmx&pf_rd_p=0cda1f1d-8b7f-49b5-b2a0-876792b46954&pf_rd_r=GWGBZAPRPRJ560M6VGG9&pd_rd_r=40789414-15d6-4470-85b8-1d8a68cd3bda&pd_rd_wg=79stZ&pd_rd_i=0134757599&psc=1">
+            <a target="_blank" className={styles.card}>
+              <h3>Livro Refactoring, Martin Fowler</h3>
+              <p>
+                Aplique rapidamente refatorações convenientes para deixar um
+                software mais fácil de entender e de alterar.
+              </p>
+            </a>
+          </Link>
+
+          <Link href="https://www.amazon.com.br/Javascript-Jquery-desenvolvimento-Jon-Duckett/dp/8576089459/ref=pd_sbs_2?pd_rd_w=Cu8y9&pf_rd_p=0b7b5b86-4ae8-4ee9-8222-a387f0fff9c7&pf_rd_r=93N0MB2GCXVX70MK27JX&pd_rd_r=5317aa90-3f95-4dbe-be5a-43a470975853&pd_rd_wg=cXL4e&pd_rd_i=8576089459&psc=1">
+            <a target="_blank" className={styles.card}>
+              <h3>
+                Javascript e Jquery: Desenvolvimento de Interfaces web
+                Interativas
+              </h3>
+              <p>
+                Tudo o que você precisa é entender um pouco sobre HTML e CSS.
+              </p>
+            </a>
+          </Link>
+
+          <Link href="https://www.amazon.com.br/Relogio-Amazfit-A1902-Aluminium-Alloy/dp/B07WGW4RLK/ref=pd_sbs_28?pd_rd_w=W9Pg5&pf_rd_p=0b7b5b86-4ae8-4ee9-8222-a387f0fff9c7&pf_rd_r=JFDD1GXNR0ANWD0F4V3X&pd_rd_r=6a4aaed2-6100-4453-8da5-ab5318685980&pd_rd_wg=Z86og&pd_rd_i=B07WGW4RLK&psc=1">
+            <a target="_blank" className={styles.card}>
+              <h3>Relógio Amazfit GTR Aluminium</h3>
+              <p>
+                O smartwatch Amazfit GTR apresenta um visual clássico do relógio
+                tradicional, perfeito para esportes e negócios.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
