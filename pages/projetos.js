@@ -52,6 +52,13 @@ export default function Projetos() {
               <p>Tema WordPress (WooCommerce) com estilo minimalista.</p>
             </a>
           </Link>
+
+          <Link href="/projetos/bannedtheme">
+            <a className={styles.card}>
+              <h3>Movier (Netflix Clone)</h3>
+              <p>Tema WordPress (WooCommerce) com estilo minimalista.</p>
+            </a>
+          </Link>
         </div>
       </main>
 

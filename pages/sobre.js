@@ -67,19 +67,27 @@ export default function Sobre() {
           </p>
 
           <p>
-            O meu objetivo a longo prazo é trabalhar ativamente no{" "}
+            O meu objetivo a longo prazo é contribuir para o crescimento do{" "}
             <a
               target="_blank"
               href="http://cenarioseducacao2032.org.br/contexto-da-educacao-basica-brasileira/#:~:text=Atualmente%2C%20o%20investimento%20público%20direto,distantes%20de%20um%20cenário%20ideal."
             >
               cenário educacional brasileiro
             </a>{" "}
-            através do meu conhecimento em tecnologia. Especialmente com as
-            classes mais carentes, as que não podem pagar por uma educação de
-            qualidade.
+            através da tecnologia, entregando conteúdo relevante e gratuito a
+            todos que não podem pagar por uma educação de qualidade.
           </p>
 
-          <p>É apenas o começo.</p>
+          <p>
+            É apenas o começo.{" "}
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=vZWS7Xy-5BE"
+            >
+              This is the way
+            </a>
+            .
+          </p>
         </div>
       </main>
 

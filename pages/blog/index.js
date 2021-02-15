@@ -15,11 +15,11 @@ export default function Blog({ posts }) {
   return (
     <>
       <Head>
-        <title>Blog | Hero Content</title>
+        <title>Blog | Gustavo Scafeli</title>
         <meta name="og:title" property="og:title" content="Blog" />
         <meta
           name="description"
-          content="Um blog sobre criação de conteúdo para pequenas e médias empresas"
+          content="Conteúdos de qualidade sobre programação e negócios."
         />
       </Head>
 

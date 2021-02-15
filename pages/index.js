@@ -10,7 +10,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Gustavo Scafeli - Developer and Content Creator</title>
+        <title>Gustavo Scafeli - Software Engineer and Content Creator</title>
+
+        <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
+        <meta name="description" content="Developer and Content Creator." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,7 +22,9 @@ export default function Home() {
 
         <h1 className={styles.title}>Gustavo Scafeli</h1>
 
-        <p className={styles.description}>Programador e Criador de Conteúdo</p>
+        <p className={styles.description}>
+          Software Engineer and Content Creator
+        </p>
 
         <div className={styles.grid}>
           <Link href="/sobre">
