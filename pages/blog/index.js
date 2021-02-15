@@ -26,7 +26,7 @@ export default function Blog({ posts }) {
       <main className={styles.main}>
         <Header />
 
-        <h1 className={styles.title}>Blog</h1>
+        <h1 className={styles.sectitle}>Blog</h1>
 
         <p className={styles.description}>
           Conteúdos de qualidade sobre programação e negócios.
