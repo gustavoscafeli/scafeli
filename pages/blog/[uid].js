@@ -9,8 +9,6 @@ import { RichText } from "prismic-reactjs";
 import linkResolver from "../../lib/linkResolver";
 import { client } from "../../lib/prismic-configuration";
 
-import styles from "../../styles/Home.module.css";
-
 //COMPONENTS
 import Header from "../../components/header";
 import Footer from "../../components/footer";
@@ -31,17 +29,16 @@ export default function BlogPost({ post }) {
         />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Header />
+        <div className="max-w-screen-md mx-auto">
+          <h1>Blog</h1>
 
-        <h1 className={styles.title}>Blog</h1>
+          {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
 
-        {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
+          {RichText.render(post.data.title)}
+          <span>{post.data.formattedDate}</span>
 
-        {RichText.render(post.data.title)}
-        <span>{post.data.formattedDate}</span>
-
-        <div className={styles.bodyabout}>
           {RichText.render(post.data.corpo_post, linkResolver)}
 
           {/* <Link href="/blog">

@@ -1,14 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
 // import Image from "next/image";
-import styles from "../styles/Home.module.css";
+// import "../styles/tailwind.css";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Gustavo Scafeli - Software Engineer and Content Creator</title>
 
@@ -17,33 +17,36 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="container mx-auto">
         <Header />
 
-        <h1 className={styles.title}>Gustavo Scafeli</h1>
+        <div class="text-center content-center my-8">
+          <h1 class="text-5xl font-bold mb-3">Gustavo Scafeli</h1>
+          <p class="text-2xl font-semibold">
+            Software Engineer and Content Creator
+          </p>
+        </div>
 
-        <p className={styles.description}>
-          Software Engineer and Content Creator
-        </p>
-
-        <div className={styles.grid}>
-          <Link href="/sobre">
-            <a className={styles.card}>
-              <h3>Sobre</h3>
-              <p>Um resumo sobre essa pessoa incrível que vos escreve.</p>
-            </a>
-          </Link>
+        <div className="max-w-screen-lg mx-auto grid grid-cols-2 gap-4">
+          <div className="self-stretch">
+            <Link href="/sobre">
+              <a>
+                <h3 class="text-3xl font-semibold mb-3">Sobre</h3>
+                <p>Um resumo sobre essa pessoa incrível que vos escreve.</p>
+              </a>
+            </Link>
+          </div>
 
           <Link href="/projetos">
-            <a className={styles.card}>
-              <h3>Projetos</h3>
+            <a>
+              <h3 class="text-3xl font-semibold mb-3">Projetos</h3>
               <p>Uma lista de projetos em que trabalhei / estou trabalhando.</p>
             </a>
           </Link>
 
           <Link href="/blog">
-            <a className={styles.card}>
-              <h3>Blog</h3>
+            <a>
+              <h3 class="text-3xl font-semibold mb-3">Blog</h3>
               <p>
                 Veja todos os artigos que já escrevi sobre tecnologia e
                 conteúdo.
@@ -51,16 +54,9 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/timeline">
-            <a className={styles.card}>
-              <h3>Linha do tempo</h3>
-              <p>A forma mais simples de você conhecer a minha trajetória.</p>
-            </a>
-          </Link>
-
           <Link href="/loja">
-            <a className={styles.card}>
-              <h3>Loja</h3>
+            <a>
+              <h3 class="text-3xl font-semibold mb-3">Loja</h3>
               <p>Aqui estão os cursos, livros e produtos que eu indico.</p>
             </a>
           </Link>

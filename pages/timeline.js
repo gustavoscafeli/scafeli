@@ -1,29 +1,28 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
 
 export default function Timeline() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Timeline | Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Header />
-        <h1 className={styles.sectitle}>Linha do tempo</h1>
 
-        <p className={styles.description}>
-          Minha trajetória pessoal e profissional de forma resumida.
-        </p>
+        <div class="text-center content-center my-8">
+          <h1 class="text-5xl font-bold mb-3">Gustavo Scafeli</h1>
+          <p class="text-2xl font-semibold">Linha do tempo</p>
+        </div>
 
-        <div className={styles.grid}>
-          <div className={styles.cardtimeline}>
-            <h3>2020</h3>
+        <div className="max-w-screen-md mx-auto">
+          <div>
+            <h3 class="font-semibold mb-2">2020</h3>
             <p>
               <i class="far fa-check-circle"></i> Criei a{" "}
               <a target="_blank" href="https://herocontent.vercel.app">
@@ -38,8 +37,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2017</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2017</h3>
             <p>
               <i class="far fa-check-circle"></i> Voltei para o{" "}
               <a
@@ -57,8 +56,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2016</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2016</h3>
             <p>
               <i class="far fa-check-circle"></i> Mudei para{" "}
               <a target="_blank" href="https://pt.wikipedia.org/wiki/Curitiba">
@@ -76,8 +75,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2015</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2015</h3>
             <p>
               <i class="far fa-check-circle"></i> Fui promovido a Gerente de
               Projetos na{" "}
@@ -96,8 +95,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2014</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2014</h3>
 
             <p>
               <i class="far fa-check-circle"></i> Me tornei um{" "}
@@ -119,8 +118,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2012</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2012</h3>
             <p>
               <i class="far fa-check-circle"></i> Fui aprovado no Processo
               Seletivo 2011/2 do{" "}
@@ -140,8 +139,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2010</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2010</h3>
             <p>
               <i class="far fa-check-circle"></i> Ingressei no curso de
               matemática na UFRJ. 🔥
@@ -161,8 +160,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2009</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2009</h3>
             <p>
               <i class="far fa-check-circle"></i> Fui aprovado no vestibular da
               UFRJ.❤️
@@ -174,8 +173,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2008</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2008</h3>
             <p>
               <i class="far fa-check-circle"></i> Passei no meu primeiro
               concurso,{" "}
@@ -197,16 +196,16 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2007</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2007</h3>
             <p>
               <i class="far fa-check-circle"></i> Meu primeiro emprego com a
               carteira assinada.
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>2000</h3>
+          <div>
+            <h3 class="font-semibold mb-2">2000</h3>
             <p>
               <i class="far fa-check-circle"></i> Meu primeiro computador.
             </p>
@@ -216,8 +215,8 @@ export default function Timeline() {
             </p>
           </div>
 
-          <div className={styles.cardtimeline}>
-            <h3>1990</h3>
+          <div>
+            <h3 class="font-semibold mb-2">1990</h3>
             <p>
               <i class="far fa-check-circle"></i> Nasci no dia 19 de novembro.
               👶🏼🍼
