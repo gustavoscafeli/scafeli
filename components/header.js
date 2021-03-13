@@ -1,23 +1,62 @@
 import Link from "next/link";
 import Image from "next/image";
-// import styles from "../styles/Home.module.css";
 
 export default function Header() {
   return (
     <>
-      <div class="text-center content-center mt-10 md:mt-20">
-        <Link href="/">
-          <a>
-            <Image
-              src="/avatar.jfif"
-              alt="Gustavo Scafeli"
-              width={150}
-              height={150}
-              class="rounded-full h-24 w-24 flex items-center"
-            />
-          </a>
-        </Link>
-      </div>
+      <header>
+        <div className="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                Scafeli
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      Serviços
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Projetos
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Produtos
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+                <div>
+                  <a className="btn-header" href="/">
+                    Fale conosco
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
     </>
   );
 }
