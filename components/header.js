@@ -8,10 +8,10 @@ export default function Header() {
         <div className="container">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                Scafeli
+              <a class="navbar-brand" href="/">
+                Gustavo Scafeli
               </a>
-              <button
+              {/* <button
                 class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -21,23 +21,18 @@ export default function Header() {
                 aria-label="Toggle navigation"
               >
                 <span class="navbar-toggler-icon"></span>
-              </button>
+              </button> */}
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  {/* <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      Serviços
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Projetos
+                      About
                     </a>
                   </li>
 
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Produtos
+                      Projects
                     </a>
                   </li>
 
@@ -45,13 +40,13 @@ export default function Header() {
                     <a class="nav-link" href="#">
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
-                <div>
+                {/* <div>
                   <a className="btn-header" href="/">
-                    Fale conosco
+                    Get in touch
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </nav>

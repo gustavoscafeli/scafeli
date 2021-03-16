@@ -5,43 +5,35 @@ export default function Footer() {
     <>
       <footer>
         <div className="container">
-          <div className="row d-flex justify-content-between">
+          <div className="row d-flex justify-content-between align-items-center">
             <div className="col-md-4">
-              <p></p>
-              <a className="btn-header" href="/">
-                Entre em contato
-              </a>
-            </div>
-
-            <div className="col-md-5">
+              <p>I'm a lot cooler on social media</p>
               <ul className="menu-footer">
                 <li>
                   <a
-                    href=""
-                    className="d-flex justify-content-between align-items-center"
+                    href="https://www.instagram.com/gustavoscafeli/"
+                    target="_blank"
                   >
-                    Tem uma ótima ideia de produto? <Icon.ChevronRight />
+                    <Icon.Instagram />
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    href=""
-                    className="d-flex justify-content-between align-items-center"
-                  >
-                    Precisa ampliar a sua equipe? <Icon.ChevronRight />
+                  <a href="https://twitter.com/scafeli" target="_blank">
+                    <Icon.Twitter />
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    href=""
-                    className="d-flex justify-content-between align-items-center"
-                  >
-                    Quer trabalhar no Scafeli? <Icon.ChevronRight />
+                  <a href="https://github.com/scafeli" target="_blank">
+                    <Icon.GitHub />
                   </a>
                 </li>
               </ul>
+
+              {/* <a className="btn-header" href="/">
+                Get in touch
+              </a> */}
             </div>
           </div>
         </div>

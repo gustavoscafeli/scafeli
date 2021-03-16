@@ -15,9 +15,6 @@ body {
 
 $primary: #ea5243;
 
-.container {
-  max-width: 1400px;
-}
 
 p {
   font-size: 20px;
@@ -50,6 +47,10 @@ h6,
   padding: 15px 25px;
   display: inline-flex;
   border-radius: 10px;
+
+  &:hover {
+    color: white;
+  }
 }
 
 .primary-color {
@@ -57,54 +58,13 @@ h6,
 }
 
 .hero {
-  padding: 200px 0;
+  padding: 120px 0;
   h1 {
-    font-size: 56px;
+    font-size: 50px;
   }
 }
 
-.home-area {
-  padding: 80px 15px;
 
-  h1 {
-    font-size: 48px;
-    line-height: 125%;
-    font-weight: 500;
-    letter-spacing: -0.07em;
-    margin-bottom: 30px;
-  }
-
-  p {
-    font-size: 28px;
-    line-height: 160%;
-    font-weight: 400;
-    letter-spacing: -0.03em;
-  }
-}
-
-.single-service {
-  border-top: 1px solid;
-  padding: 80px 0;
-
-  h1 {
-    font-size: 48px;
-  }
-
-  h1 {
-    margin-bottom: 15px;
-  }
-
-  ul {
-    padding: 0;
-    margin: 0;
-    li {
-      font-family: "Gordita Medium";
-      list-style: none;
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-  }
-}
 
 footer {
   background: #333;
@@ -114,17 +74,21 @@ footer {
   .menu-footer {
     padding: 0;
     margin: 0;
+    margin-bottom: 30px;
 
     li {
       list-style: none;
+      display: inline-flex;
+      margin-right: 20px;
+    
+      
+
       a {
         color: white;
         font-size: 22px;
         text-decoration: none;
+        
 
-        i {
-          color: white;
-        }
       }
     }
   }
