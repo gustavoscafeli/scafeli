@@ -21,35 +21,34 @@ export default function Blog({ posts }) {
         />
       </Head>
 
-      <main>
-        <Header />
+      <Header />
 
-        <div class="text-center content-center my-8">
-          <h1 class="text-5xl font-bold mb-3">Gustavo Scafeli</h1>
-          <p class="text-2xl font-semibold">Blog</p>
-        </div>
+      <div className="container blog__area">
+        <div className="row">
+          <div className="col-md-9">
+            {posts.results.map((post) => (
+              <Link href="/blog/[uid]" as={`/blog/${post.uid}`} key={post.uid}>
+                <a className="row">
+                  <div className="col-md-5">
+                    <img
+                      src={post.data.featured_img.url}
+                      alt={post.data.title}
+                    />
+                  </div>
 
-        <div className="max-w-screen-md mx-auto">
-          {posts.results.map((post) => (
-            <Link href="/blog/[uid]" as={`/blog/${post.uid}`} key={post.uid}>
-              <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-                <img
-                  class="w-auto h-40 md:rounded-none rounded-full"
-                  src={post.data.featured_img.url}
-                  alt=""
-                />
-                <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-                  <blockquote>
+                  <div className="col-md-7">
                     <p class="text-lg font-semibold">
                       {RichText.render(post.data.title)}
                     </p>
-                  </blockquote>
-                </div>
-              </figure>
-            </Link>
-          ))}
+                  </div>
+                </a>
+              </Link>
+            ))}
+          </div>
+
+          <div className="col-md-3">sidebar</div>
         </div>
-      </main>
+      </div>
 
       <Footer />
     </>

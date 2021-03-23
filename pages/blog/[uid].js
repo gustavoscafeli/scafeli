@@ -29,23 +29,25 @@ export default function BlogPost({ post }) {
         />
       </Head>
 
-      <main>
-        <Header />
-        <div className="max-w-screen-md mx-auto">
-          <h1>Blog</h1>
+      <Header />
 
-          {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
+      <div className="container blog__area">
+        <div className="row">
+          <div className="col-md-9">
+            {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
 
-          {RichText.render(post.data.title)}
-          <span>{post.data.formattedDate}</span>
+            {RichText.render(post.data.title)}
+            <span>{post.data.formattedDate}</span>
 
-          {RichText.render(post.data.corpo_post, linkResolver)}
+            {RichText.render(post.data.corpo_post, linkResolver)}
 
-          {/* <Link href="/blog">
-            <a>Voltar</a>
-          </Link> */}
+            {/* <Link href="/blog">
+  <a>Voltar</a>
+</Link> */}
+          </div>
+          <div className="col-md-3">sidebar</div>
         </div>
-      </main>
+      </div>
 
       <Footer />
     </>

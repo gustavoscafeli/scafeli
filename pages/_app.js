@@ -1,7 +1,16 @@
+import { useEffect } from "react";
+import AOS from "aos";
+
 import Head from "next/head";
 import "../styles/global.scss";
 
+import "aos/dist/aos.css";
+
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <Head>

@@ -10,24 +10,15 @@ export default function Sobre() {
   return (
     <div>
       <Head>
-        <title>Sobre | Gustavo Scafeli</title>
+        <title>About | Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
+
       <main>
-        <Header />
-
-        {/* <TopTracks /> */}
-
-        <div class="text-center content-center my-8">
-          <h1 class="text-5xl font-bold mb-3">Gustavo Scafeli</h1>
-          <p class="text-2xl font-semibold">Sobre</p>
-        </div>
-
-        <div className="max-w-screen-md mx-auto">
-          <p className="mb-3">
-            Você encontrou minha fatia pessoal da internet :)
-          </p>
+        <div className="container">
+          <p>Você encontrou minha fatia pessoal da internet :)</p>
 
           <p className="mb-3">
             Nascido na cidade de Itaboraí, Rio de Janeiro, eu tive muita sorte
