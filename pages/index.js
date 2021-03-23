@@ -134,8 +134,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    Blog (in Portuguese){" "}
-                    <Icon.ArrowUpRight stroke-width="1.2" />
+                    Blog (in pt_BR) <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>

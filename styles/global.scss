@@ -308,20 +308,34 @@ footer {
   //   background-color: lightblue;
   // }
 
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .hero {
     .developer {
       display: none;
     }
   }
 
+  .cards__home {
+    padding: 30px 0;
+  }
+
   .cards__area {
-    display: inherit !important;
+    flex-wrap: wrap;
     .card__item {
       position: relative;
-      height: 400px;
-
-      min-width: 100% !important;
+      height: 250px !important;
+      min-width: 46% !important;
+      width: 48% !important;
       margin-bottom: 30px !important;
+      overflow: hidden;
+
+      .bottom__link {
+        font-size: 12px;
+      }
 
       &:nth-child(2) {
         margin-top: 0px !important;
