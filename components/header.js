@@ -16,7 +16,11 @@ export default function Header() {
           <a className="name">Gustavo Scafeli</a>
         </Link>
 
-        <a href="mailto:gustavoscafeli@gmail.com">Contato</a>
+        <Link href="mailto:gustavoscafeli@gmail.com">
+          <a className="name">
+            <Icon.Mail stroke-width="1.2" />
+          </a>
+        </Link>
       </header>
     </>
   );

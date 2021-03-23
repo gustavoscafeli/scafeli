@@ -63,6 +63,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   z-index: 99999999;
   padding-left: 40px;
@@ -316,6 +317,15 @@ footer {
   .hero {
     .developer {
       display: none;
+    }
+
+    .location {
+      bottom: 60px;
+      left: 20px;
+    }
+
+    .social {
+      right: 20px !important;
     }
   }
 
