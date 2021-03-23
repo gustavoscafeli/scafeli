@@ -25,7 +25,7 @@ export default function Blog({ posts }) {
 
       <div className="container blog__area">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8 single__post__item">
             {posts.results.map((post) => (
               <Link href="/blog/[uid]" as={`/blog/${post.uid}`} key={post.uid}>
                 <a className="row">
@@ -37,16 +37,16 @@ export default function Blog({ posts }) {
                   </div>
 
                   <div className="col-md-7">
-                    <p class="text-lg font-semibold">
-                      {RichText.render(post.data.title)}
-                    </p>
+                    {RichText.render(post.data.title)}
+
+                    {RichText.render(post.data.description)}
                   </div>
                 </a>
               </Link>
             ))}
           </div>
 
-          <div className="col-md-3">sidebar</div>
+          <div className="col-md-4">sidebar</div>
         </div>
       </div>
 

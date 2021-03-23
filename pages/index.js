@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gustavo Scafeli - Software Engineer</title>
+        <title>Gustavo Scafeli - Software Engineer and Content Creator</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta name="description" content="Software Engineer" />
@@ -56,9 +56,8 @@ export default function Home() {
             <div className="row justify-content-md-center">
               <div
                 className="col-md-8 text-center"
-                data-aos="fade"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-duration="1000"
+                data-aos="fade-up"
+                data-aos-duration="1500"
               >
                 <h1>
                   I'm a Software Engineer, founder of <a href="/">Zappy</a>, CTO

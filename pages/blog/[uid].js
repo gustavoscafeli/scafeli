@@ -33,11 +33,11 @@ export default function BlogPost({ post }) {
 
       <div className="container blog__area">
         <div className="row">
-          <div className="col-md-9">
+          <div className="col-md-8 single__post__content">
             {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
 
             {RichText.render(post.data.title)}
-            <span>{post.data.formattedDate}</span>
+            <p className="date">{post.data.formattedDate}</p>
 
             {RichText.render(post.data.corpo_post, linkResolver)}
 
@@ -45,7 +45,7 @@ export default function BlogPost({ post }) {
   <a>Voltar</a>
 </Link> */}
           </div>
-          <div className="col-md-3">sidebar</div>
+          <div className="col-md-4">sidebar</div>
         </div>
       </div>
 
