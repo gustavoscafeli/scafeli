@@ -19,7 +19,7 @@ export default function Projetos() {
       <section className="cards__projects">
         <div className="container">
           <div className="cards__area">
-            <Link href="/projects">
+            <Link href="/projetos/zappy">
               <a
                 className="card__item card__zappy"
                 data-aos="fade-up"
@@ -34,7 +34,7 @@ export default function Projetos() {
               </a>
             </Link>
 
-            <Link href="/about">
+            <Link href="/projetos/adidas">
               <a
                 className="card__item card__adidas"
                 data-aos="fade-up"
@@ -49,7 +49,7 @@ export default function Projetos() {
               </a>
             </Link>
 
-            <Link href="/blog">
+            <Link href="/projetos/herocontent">
               <a
                 className="card__item card__herocontent"
                 data-aos="fade-up"
@@ -64,7 +64,7 @@ export default function Projetos() {
               </a>
             </Link>
 
-            <Link href="/blog">
+            <Link href="/projetos/banned">
               <a
                 className="card__item card__banned"
                 data-aos="fade-up"
@@ -79,7 +79,7 @@ export default function Projetos() {
               </a>
             </Link>
 
-            <Link href="/blog">
+            <Link href="/projetos/netflix">
               <a
                 className="card__item card__netflix"
                 data-aos="fade-up"

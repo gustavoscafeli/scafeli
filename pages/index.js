@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gustavo Scafeli - Software Engineer and Content Creator</title>
+        <title>Gustavo Scafeli</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta name="description" content="Software Engineer" />
@@ -22,7 +22,7 @@ export default function Home() {
 
         <section className="hero">
           <div className="location">
-            <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brazil
+            <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brasil
           </div>
 
           <div className="social">
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className="developer">
-            <span>Software Engineer / Content Creator</span>
+            <span>Engenheiro de Software / Criador de Conteúdo</span>
           </div>
 
           <div className="bottom-fade"></div>
@@ -55,22 +55,21 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-md-center">
               <div
-                className="col-md-8 text-center"
+                className="col-md-7 text-center"
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                <h1>
-                  I'm a Software Engineer, founder of <a href="/">Zappy</a>, CTO
-                  at{" "}
+                <h3>
+                  Programador, criador do <a href="/">Zappy</a>, CTO do{" "}
                   <a href="https://anonimatta.com.br" target="_blank">
                     Anonimatta
                   </a>{" "}
-                  and content creator at{" "}
+                  e criador no{" "}
                   <a href="https://anonimatta.com.br" target="_blank">
                     YouTube
                   </a>
                   .
-                </h1>
+                </h3>
               </div>
             </div>
           </div>
@@ -79,7 +78,7 @@ export default function Home() {
         <section className="cards__home">
           <div className="container">
             <div className="cards__area">
-              <Link href="/about">
+              <Link href="/sobre">
                 <a
                   className="card__item card__about"
                   data-aos="fade-up"
@@ -88,13 +87,13 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    About me <Icon.ArrowUpRight stroke-width="1.2" />
+                    Sobre <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
               </Link>
 
-              <Link href="/projects">
+              <Link href="/projetos">
                 <a
                   className="card__item card__projects"
                   data-aos="fade-up"
@@ -103,13 +102,13 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    Projects <Icon.ArrowUpRight stroke-width="1.2" />
+                    Projetos <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
               </Link>
 
-              <Link href="/blog">
+              <Link href="/canal">
                 <a
                   className="card__item card__channel"
                   data-aos="fade-up"
@@ -118,7 +117,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    My channel <Icon.ArrowUpRight stroke-width="1.2" />
+                    Meu canal <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
@@ -133,7 +132,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    Blog (in pt_BR) <Icon.ArrowUpRight stroke-width="1.2" />
+                    Blog <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>

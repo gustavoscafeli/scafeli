@@ -6,6 +6,8 @@ import { RichText } from "prismic-reactjs";
 // import { Document } from 'prismic-javascript/types/documents';
 // import { MdArrowBack } from 'react-icons/md';
 
+import * as Icon from "react-feather";
+
 import linkResolver from "../../lib/linkResolver";
 import { client } from "../../lib/prismic-configuration";
 
@@ -17,7 +19,7 @@ export default function BlogPost({ post }) {
   return (
     <>
       <Head>
-        <title>{RichText.asText(post.data.title)} | Gustavo Scafeli</title>
+        <title>{RichText.asText(post.data.title)} - Gustavo Scafeli</title>
         <meta
           name="og:title"
           property="og:title"
@@ -33,19 +35,39 @@ export default function BlogPost({ post }) {
 
       <div className="container blog__area">
         <div className="row">
-          <div className="col-md-8 single__post__content">
+          <div className="col-md-9 single__post__content">
             {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
 
             {RichText.render(post.data.title)}
             <p className="date">{post.data.formattedDate}</p>
 
+            <img
+              className="featured__img__post"
+              src={post.data.featured_img.url}
+              alt={post.data.title}
+            />
+
             {RichText.render(post.data.corpo_post, linkResolver)}
 
-            {/* <Link href="/blog">
-  <a>Voltar</a>
-</Link> */}
+            <Link href="/blog">
+              <a className="btn">
+                <Icon.ArrowLeft stroke-width="1.2" /> Voltar aos posts
+              </a>
+            </Link>
           </div>
-          <div className="col-md-4">sidebar</div>
+          <div className="col-md-3">
+            <div className="profile__sidebar">
+              <div className="background__profile"></div>
+              <div
+                className="photo__profile"
+                // src="https://images.unsplash.com/photo-1616440537338-1d04df3987f7?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              ></div>
+
+              <h3>Gustavo Scafeli</h3>
+
+              <a href="#">Get in touch</a>
+            </div>
+          </div>
         </div>
       </div>
 

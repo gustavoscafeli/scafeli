@@ -10,7 +10,7 @@ export default function Sobre() {
   return (
     <div>
       <Head>
-        <title>About | Gustavo Scafeli</title>
+        <title>Sobre | Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

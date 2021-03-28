@@ -5,9 +5,9 @@ export default function Footer() {
     <>
       <footer>
         <div className="container text-center">
-          <a href="mailto:gustavoscafeli@gmail.com">
+          {/* <a href="mailto:gustavoscafeli@gmail.com">
             <h1>Get in touch</h1>
-          </a>
+          </a> */}
           <p>© 2021 Gustavo Scafeli</p>
         </div>
       </footer>

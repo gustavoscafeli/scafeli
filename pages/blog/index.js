@@ -25,28 +25,30 @@ export default function Blog({ posts }) {
 
       <div className="container blog__area">
         <div className="row">
-          <div className="col-md-8 single__post__item">
-            {posts.results.map((post) => (
-              <Link href="/blog/[uid]" as={`/blog/${post.uid}`} key={post.uid}>
-                <a className="row">
-                  <div className="col-md-5">
-                    <img
+          <div className="col-md-9" data-aos="fade-up" data-aos-duration="1000">
+            <div className="row">
+              {posts.results.map((post) => (
+                <Link
+                  href="/blog/[uid]"
+                  as={`/blog/${post.uid}`}
+                  key={post.uid}
+                >
+                  <a className="col-md-12 single__post__item">
+                    {/* <img
                       src={post.data.featured_img.url}
                       alt={post.data.title}
-                    />
-                  </div>
+                    /> */}
 
-                  <div className="col-md-7">
                     {RichText.render(post.data.title)}
 
                     {RichText.render(post.data.description)}
-                  </div>
-                </a>
-              </Link>
-            ))}
+                  </a>
+                </Link>
+              ))}
+            </div>
           </div>
 
-          <div className="col-md-4">sidebar</div>
+          <div className="col-md-3">sidebar</div>
         </div>
       </div>
 
