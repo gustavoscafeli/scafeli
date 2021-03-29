@@ -6,11 +6,10 @@ import * as Icon from "react-feather";
 export default function Header() {
   return (
     <>
-      <div className="nav-fade"></div>
       <header>
-        <div className="menu">
+        {/* <div className="menu">
           <img className="s__logo" src="../../s-logo.svg" />
-        </div>
+        </div> */}
 
         <Link href="/">
           <a className="name">Gustavo Scafeli</a>

@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import * as Icon from "react-feather";
 
-import Header from "../components/header";
 import Footer from "../components/footer";
 
 export default function Home() {
@@ -18,9 +17,17 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
+        {/* <Header /> */}
+
+        <div className="nav-fade"></div>
 
         <section className="hero">
+          <div className="header__hero">
+            <p>Gustavo Scafeli</p>
+
+            <Icon.Mail stroke-width="1.2" />
+          </div>
+
           <div className="location">
             <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brasil
           </div>

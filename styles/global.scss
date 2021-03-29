@@ -5,6 +5,10 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Gordita Regular";
   // background: #000;
@@ -27,10 +31,10 @@ body {
 $primary: #656d78;
 
 .nav-fade {
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
-  height: 20vh;
+  height: 300px;
   pointer-events: none;
   top: 0;
   background: linear-gradient(
@@ -49,19 +53,18 @@ $primary: #656d78;
     rgba(0, 0, 0, 0.002) 98.2%,
     transparent 100%
   );
-  z-index: 16;
+  z-index: 2;
   opacity: 0.7;
 }
 
 header {
   width: 100%;
-  position: fixed;
+
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 15px;
+  padding: 20px 40px;
   z-index: 999999;
   top: 0;
   a {
@@ -89,6 +92,10 @@ h6,
   font-weight: normal;
 }
 
+.head__page {
+  margin-bottom: 40px;
+}
+
 .btn {
   background-color: $primary;
   color: white;
@@ -107,12 +114,22 @@ h6,
 }
 
 .hero {
-  background: url("https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80");
+  background: url("https://images.unsplash.com/photo-1471174466996-0aa69dbda661?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2124&q=80");
   min-height: 500px;
   background-position: center;
   background-size: cover;
   position: relative;
   height: 100vh;
+  color: white !important;
+
+  .header__hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: white !important;
+    z-index: 9999999;
+  }
 
   .location {
     position: absolute;
@@ -289,8 +306,12 @@ h6,
   }
 }
 
+.about__area {
+  padding: 60px 0;
+}
+
 .cards__projects {
-  padding: 100px 0;
+  padding: 60px 0;
   .cards__area {
     display: flex;
     justify-content: space-between;
@@ -397,8 +418,7 @@ h6,
 }
 
 .blog__area {
-  margin-top: 120px;
-  padding-bottom: 40px;
+  padding: 60px 0;
 
   .single__post__item {
     margin-bottom: 40px;
@@ -408,7 +428,7 @@ h6,
     }
 
     h1 {
-      font-size: 26px;
+      font-size: 28px;
       margin-bottom: 20px;
     }
   }

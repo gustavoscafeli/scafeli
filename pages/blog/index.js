@@ -13,7 +13,7 @@ export default function Blog({ posts }) {
   return (
     <>
       <Head>
-        <title>Blog | Gustavo Scafeli</title>
+        <title>Blog - Gustavo Scafeli</title>
         <meta name="og:title" property="og:title" content="Blog" />
         <meta
           name="description"
@@ -23,9 +23,21 @@ export default function Blog({ posts }) {
 
       <Header />
 
-      <div className="container blog__area">
+      <div
+        data-aos="fade"
+        data-aos-duration="1000"
+        className="container blog__area"
+      >
+        <div className="head__page">
+          <h1>Blog</h1>
+          <p classNam="lead">
+            Escrevo online desde 2014, principalmente sobre desenvolvimento web
+            e carreiras em tecnologia.
+          </p>
+        </div>
+
         <div className="row">
-          <div className="col-md-9" data-aos="fade-up" data-aos-duration="1000">
+          <div className="col-md-9">
             <div className="row">
               {posts.results.map((post) => (
                 <Link

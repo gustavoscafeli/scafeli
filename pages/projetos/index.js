@@ -10,13 +10,20 @@ export default function Projetos() {
   return (
     <div>
       <Head>
-        <title>Projects | Gustavo Scafeli</title>
+        <title>Projects - Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
 
       <section className="cards__projects">
+        <div className="container">
+          <div className="head__page">
+            <h1>Projetos</h1>
+            <p classNam="lead">uahsuhas aush auh aush</p>
+          </div>
+        </div>
+
         <div className="container">
           <div className="cards__area">
             <Link href="/projetos/zappy">
