@@ -35,11 +35,15 @@ export default function BlogPost({ post }) {
 
       <div className="container blog__area">
         <div className="row">
-          <div className="col-md-9 single__post__content">
+          <div
+            data-aos="fade"
+            data-aos-duration="1000"
+            className="col-md-8 single__post__content"
+          >
             {/* <p className={styles.description}>Programador e Criador de Conteúdo</p> */}
 
             {RichText.render(post.data.title)}
-            <p className="date">{post.data.formattedDate}</p>
+            <p className="date">Gustavo Scafeli • {post.data.formattedDate}</p>
 
             <img
               className="featured__img__post"
@@ -55,7 +59,7 @@ export default function BlogPost({ post }) {
               </a>
             </Link>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4">
             <div className="profile__sidebar">
               <div className="background__profile"></div>
               <div

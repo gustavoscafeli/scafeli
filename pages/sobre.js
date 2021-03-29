@@ -16,30 +16,21 @@ export default function Sobre() {
 
       <Header />
 
-      <div className="container about__area">
+      <div
+        data-aos="fade"
+        data-aos-duration="1000"
+        className="container about__area"
+      >
         <div className="head__page">
           <h1>Sobre</h1>
-          <p classNam="lead">uahsuhas aush auh aush</p>
+          <p classNam="lead">
+            Uma breve descrição sobre a minha trajetória profissional
+          </p>
         </div>
 
         <div className="row">
-          <div className="col-md-9">
-            <p>
-              Hey, I’m Lee. I'm a developer, writer, and the creator of
-              Mastering Next.js and React 2025.
-            </p>
-            <p>I work at ▲Vercel as a Solutions Architect.</p>
-            <p>
-              I’ve spoken across the country at conferences and meet-ups about
-              front-end development, design, and recruiting. I write about
-              development, tech careers, and my personal life on my newsletter.
-            </p>
-            <p>
-              I grew up in small-town Iowa and went to school at Iowa State,
-              graduating with a degree in Computer Engineering. I spend my free
-              time playing music, creating videos, and enjoying time with
-              friends and family in Des Moines, IA.
-            </p>
+          <div className="col-md-8">
+            <p>Olá, meu nome é Gustavo Scafeli.</p>
           </div>
         </div>
       </div>

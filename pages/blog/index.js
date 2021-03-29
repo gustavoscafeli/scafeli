@@ -31,8 +31,7 @@ export default function Blog({ posts }) {
         <div className="head__page">
           <h1>Blog</h1>
           <p classNam="lead">
-            Escrevo online desde 2014, principalmente sobre desenvolvimento web
-            e carreiras em tecnologia.
+            Um blog sobre desenvolvimento, criatividade e produtividade.
           </p>
         </div>
 

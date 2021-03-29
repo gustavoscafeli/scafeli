@@ -20,7 +20,7 @@ export default function Projetos() {
         <div className="container">
           <div className="head__page">
             <h1>Projetos</h1>
-            <p classNam="lead">uahsuhas aush auh aush</p>
+            <p classNam="lead">Conheça alguns dos meus projetos pessoais</p>
           </div>
         </div>
 
