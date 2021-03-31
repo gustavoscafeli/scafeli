@@ -220,6 +220,15 @@ h6,
   padding: 60px 0;
 }
 
+.back {
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 5px;
+  }
+}
+
 .bottom-fade {
   width: 100%;
   bottom: 0;
@@ -568,8 +577,37 @@ footer {
   // }
 
   header {
+    max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    display: block;
+
+    .name {
+      img {
+        width: 120px !important;
+      }
+    }
+
+    .social {
+      display: none;
+    }
+  }
+
+  .head__page {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+  }
+
+  .blog__area .single__post__content h1:nth-child(1) {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .single__post__item {
+    h1 {
+      font-size: 26px !important;
+    }
   }
 
   .hero {
@@ -577,13 +615,36 @@ footer {
       display: none;
     }
 
+    .scafeli {
+      width: 200px;
+      top: 50%;
+    }
+
     .header__hero {
       padding: 20px 15px;
+      display: block;
+
+      p {
+        display: none;
+      }
+
+      .social {
+        ul {
+          text-align: center;
+          li {
+            a {
+              padding: 10px 10px;
+              margin-left: 0;
+            }
+          }
+        }
+      }
     }
 
     .location {
-      bottom: 15px;
-      left: 15px;
+      bottom: 10px;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
     .social {
@@ -609,6 +670,16 @@ footer {
 
   .cards__home {
     padding: 30px 0;
+  }
+
+  .img__about {
+    max-width: 100% !important;
+    height: 150px;
+  }
+
+  .img__blog {
+    max-width: 100% !important;
+    height: 150px;
   }
 
   .cards__area {

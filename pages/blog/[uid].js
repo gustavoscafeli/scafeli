@@ -54,7 +54,7 @@ export default function BlogPost({ post }) {
             {RichText.render(post.data.corpo_post, linkResolver)}
 
             <Link href="/blog">
-              <a className="btn">
+              <a className="back">
                 <Icon.ArrowLeft stroke-width="1.2" /> Voltar aos posts
               </a>
             </Link>
