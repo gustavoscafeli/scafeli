@@ -19,40 +19,57 @@ export default function Home() {
       <main>
         {/* <Header /> */}
 
-        <div className="nav-fade"></div>
+        <section data-aos="fade" data-aos-duration="1000" className="hero">
+          <div className="nav-fade"></div>
 
-        <section className="hero">
           <div className="header__hero">
             <p>Gustavo Scafeli</p>
 
-            <Icon.Mail stroke-width="1.2" />
+            <div className="social">
+              <ul>
+                <li>
+                  <a
+                    href="https://instagram.com/gustavoscafeli"
+                    target="_blank"
+                  >
+                    <Icon.Instagram stroke-width="1.2" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/Scafeli" target="_blank">
+                    <Icon.GitHub stroke-width="1.2" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
+                    target="_blank"
+                  >
+                    <Icon.Headphones stroke-width="1.2" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="mailto:gustavoscafeli@gmail.com">
+                    <Icon.Mail stroke-width="1.2" />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="location">
             <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brasil
           </div>
 
-          <div className="social">
-            <ul>
-              <li>
-                <a href="https://instagram.com/gustavoscafeli" target="_blank">
-                  <Icon.Instagram stroke-width="1.2" />
-                </a>
-                <a href="https://github.com/Scafeli" target="_blank">
-                  <Icon.GitHub stroke-width="1.2" />
-                </a>
-                <a href="https://facebook.com/Scafeli" target="_blank">
-                  <Icon.Facebook stroke-width="1.2" />
-                </a>
-                <a href="https://youtube.com/Scafeli" target="_blank">
-                  <Icon.Youtube stroke-width="1.2" />
-                </a>
-              </li>
-            </ul>
+          <div className="scafeli">
+            <img src="scafeli-logo-white.svg" />
           </div>
 
           <div className="developer">
-            <span>Engenheiro de Software / Criador de Conteúdo</span>
+            <span>Photo by Samantha Gades / Unsplash</span>
           </div>
 
           <div className="bottom-fade"></div>

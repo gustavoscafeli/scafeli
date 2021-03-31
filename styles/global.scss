@@ -1,4 +1,6 @@
-@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
 img {
   max-width: 100%;
@@ -10,9 +12,8 @@ a {
 }
 
 body {
-  font-family: "Gordita Regular";
-  // background: #000;
-  // color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
 }
 
@@ -58,21 +59,38 @@ $primary: #656d78;
 }
 
 header {
-  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
 
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 30px 2px;
   z-index: 999999;
   top: 0;
+
   a {
-    color: white !important;
+    color: #212529;
   }
 
-  .s__logo {
-    width: 30px;
+  .name {
+    width: 130px;
+  }
+
+  .social {
+    z-index: 99;
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline-block;
+        a {
+          padding: 10px 0;
+          margin-left: 20px;
+        }
+      }
+    }
   }
 }
 
@@ -88,8 +106,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Gordita Medium";
-  font-weight: normal;
+  font-weight: 700;
 }
 
 .head__page {
@@ -114,13 +131,22 @@ h6,
 }
 
 .hero {
-  background: url("https://images.unsplash.com/photo-1471174466996-0aa69dbda661?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2124&q=80");
+  background: url("https://images.unsplash.com/photo-1573169128228-31137c599d3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80");
   min-height: 500px;
   background-position: center;
   background-size: cover;
   position: relative;
   height: 100vh;
   color: white !important;
+
+  .scafeli {
+    width: 380px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
 
   .header__hero {
     position: relative;
@@ -129,6 +155,10 @@ h6,
     padding: 20px 40px;
     color: white !important;
     z-index: 9999999;
+
+    p {
+      color: white;
+    }
   }
 
   .location {
@@ -148,19 +178,16 @@ h6,
   }
 
   .social {
-    position: absolute;
-    right: 40px;
-    top: 45vh;
-    transform: translate(0, -50%);
     z-index: 99;
     ul {
       padding: 0;
       margin: 0;
       li {
-        display: grid;
+        display: inline-block;
         a {
           color: white;
           padding: 10px 0;
+          margin-left: 20px;
         }
       }
     }
@@ -310,6 +337,24 @@ h6,
   padding: 60px 0;
 }
 
+.img__about {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  background: url("https://images.unsplash.com/photo-1496917690447-4b239a568092?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.img__blog {
+  max-width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  background: url("https://images.unsplash.com/photo-1496917690447-4b239a568092?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
 .cards__projects {
   padding: 60px 0;
   .cards__area {
@@ -430,7 +475,7 @@ h6,
     }
 
     h1 {
-      font-size: 1.25rem;
+      font-size: 32px;
       margin-bottom: 10px;
     }
     p {
@@ -455,6 +500,8 @@ h6,
 
     .date {
       font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 500;
       color: #656d78;
     }
 
@@ -474,7 +521,7 @@ h6,
 
     h1 {
       &:nth-child(1) {
-        font-size: 28px;
+        font-size: 36px;
         margin-bottom: 20px;
       }
     }

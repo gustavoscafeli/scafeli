@@ -16,6 +16,8 @@ export default function Sobre() {
 
       <Header />
 
+      <div className="img__about"></div>
+
       <div
         data-aos="fade"
         data-aos-duration="1000"

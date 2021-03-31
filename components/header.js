@@ -12,14 +12,41 @@ export default function Header() {
         </div> */}
 
         <Link href="/">
-          <a className="name">Gustavo Scafeli</a>
-        </Link>
-
-        <Link href="mailto:gustavoscafeli@gmail.com">
           <a className="name">
-            <Icon.Mail stroke-width="1.2" />
+            <img src="/scafeli-logo.svg" />
           </a>
         </Link>
+
+        <div className="social">
+          <ul>
+            <li>
+              <a href="https://instagram.com/gustavoscafeli" target="_blank">
+                <Icon.Instagram stroke-width="1.2" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Scafeli" target="_blank">
+                <Icon.GitHub stroke-width="1.2" />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
+                target="_blank"
+              >
+                <Icon.Headphones stroke-width="1.2" />
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:gustavoscafeli@gmail.com">
+                <Icon.Mail stroke-width="1.2" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </header>
     </>
   );

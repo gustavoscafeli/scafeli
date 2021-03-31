@@ -23,6 +23,8 @@ export default function Blog({ posts }) {
 
       <Header />
 
+      <div className="img__blog"></div>
+
       <div
         data-aos="fade"
         data-aos-duration="1000"
