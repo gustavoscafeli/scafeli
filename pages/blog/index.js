@@ -8,6 +8,7 @@ import { client } from "../../lib/prismic-configuration";
 
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import Sidebar from "../../components/sidebar";
 
 export default function Blog({ posts }) {
   return (
@@ -61,7 +62,9 @@ export default function Blog({ posts }) {
             </div>
           </div>
 
-          <div className="col-md-3">sidebar</div>
+          <div className="col-md-3">
+            <Sidebar />
+          </div>
         </div>
       </div>
 

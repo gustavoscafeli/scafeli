@@ -132,7 +132,7 @@ export default function Home() {
                 </a>
               </Link>
 
-              <Link href="/canal">
+              <Link href="/freebies">
                 <a
                   className="card__item card__channel"
                   data-aos="fade-up"
@@ -141,7 +141,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/logo-white.svg" />
                   <div className="bottom__link">
-                    Meu canal <Icon.ArrowUpRight stroke-width="1.2" />
+                    Freebies <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
