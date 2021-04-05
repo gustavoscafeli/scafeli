@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gustavo Scafeli</title>
+        <title>Gustavo Scafeli - CTO at Anonimatta</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta name="description" content="Software Engineer" />
@@ -109,7 +109,7 @@ export default function Home() {
                   data-aos-anchor-placement="center-bottom"
                   data-aos-duration="1000"
                 >
-                  <img className="img__link" src="/logo-white.svg" />
+                  <img className="img__link" src="/about.svg" />
                   <div className="bottom__link">
                     Sobre <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
@@ -124,7 +124,7 @@ export default function Home() {
                   data-aos-anchor-placement="center-bottom"
                   data-aos-duration="1500"
                 >
-                  <img className="img__link" src="/logo-white.svg" />
+                  <img className="img__link" src="/projects.svg" />
                   <div className="bottom__link">
                     Projetos <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
@@ -139,7 +139,7 @@ export default function Home() {
                   data-aos-anchor-placement="center-bottom"
                   data-aos-duration="2000"
                 >
-                  <img className="img__link" src="/logo-white.svg" />
+                  <img className="img__link" src="/freebies.svg" />
                   <div className="bottom__link">
                     Freebies <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>
@@ -154,7 +154,7 @@ export default function Home() {
                   data-aos-anchor-placement="center-bottom"
                   data-aos-duration="2500"
                 >
-                  <img className="img__link" src="/logo-white.svg" />
+                  <img className="img__link" src="/blog.svg" />
                   <div className="bottom__link">
                     Blog <Icon.ArrowUpRight stroke-width="1.2" />
                   </div>

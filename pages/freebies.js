@@ -4,13 +4,11 @@ import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-// import TopTracks from "../components/TopTracks";
-
-export default function Sobre() {
+export default function Freebies() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Sobre - Gustavo Scafeli</title>
+        <title>Freebies - Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -24,20 +22,20 @@ export default function Sobre() {
         className="container about__area"
       >
         <div className="head__page">
-          <h1>Sobre</h1>
+          <h1>Freebies</h1>
           <p classNam="lead">
-            Uma breve descrição sobre a minha trajetória profissional.
+            Uma seleção de recursos gratuitos para desenvolvedores.
           </p>
         </div>
 
         <div className="row">
           <div className="col-md-8">
-            <p>Olá, meu nome é Gustavo Scafeli.</p>
+            <p>Em breve.</p>
           </div>
         </div>
       </div>
 
       <Footer />
-    </div>
+    </>
   );
 }

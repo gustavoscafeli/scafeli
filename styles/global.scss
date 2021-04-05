@@ -117,7 +117,9 @@ h6,
 }
 
 .head__page {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .btn {
@@ -309,6 +311,7 @@ h6,
 
       .img__link {
         position: absolute;
+        height: 70px;
         z-index: 9999;
         top: 50%;
         left: 50%;
