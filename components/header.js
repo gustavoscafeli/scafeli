@@ -21,13 +21,13 @@ export default function Header() {
           <ul>
             <li>
               <a href="https://instagram.com/gustavoscafeli" target="_blank">
-                <Icon.Instagram stroke-width="1.2" />
+                <Icon.Instagram strokeWidth="1.2" />
               </a>
             </li>
 
             <li>
               <a href="https://github.com/Scafeli" target="_blank">
-                <Icon.GitHub stroke-width="1.2" />
+                <Icon.GitHub strokeWidth="1.2" />
               </a>
             </li>
 
@@ -36,13 +36,13 @@ export default function Header() {
                 href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
                 target="_blank"
               >
-                <Icon.Headphones stroke-width="1.2" />
+                <Icon.Headphones strokeWidth="1.2" />
               </a>
             </li>
 
             <li>
               <a href="mailto:gustavoscafeli@gmail.com">
-                <Icon.Mail stroke-width="1.2" />
+                <Icon.Mail strokeWidth="1.2" />
               </a>
             </li>
           </ul>

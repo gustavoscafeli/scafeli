@@ -8,7 +8,7 @@ export default function Footer() {
           {/* <a href="mailto:gustavoscafeli@gmail.com">
             <h1>Get in touch</h1>
           </a> */}
-          <p>© 2021 Gustavo Scafeli</p>
+          <p>© 2021 Gustavo Scafeli All Rights Reserved</p>
         </div>
       </footer>
     </>

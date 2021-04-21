@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gustavo Scafeli - CTO at Anonimatta</title>
+        <title>Gustavo Scafeli</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta name="description" content="Software Engineer" />
@@ -32,13 +32,13 @@ export default function Home() {
                     href="https://instagram.com/gustavoscafeli"
                     target="_blank"
                   >
-                    <Icon.Instagram stroke-width="1.2" />
+                    <Icon.Instagram strokeWidth="1.2" />
                   </a>
                 </li>
 
                 <li>
                   <a href="https://github.com/Scafeli" target="_blank">
-                    <Icon.GitHub stroke-width="1.2" />
+                    <Icon.GitHub strokeWidth="1.2" />
                   </a>
                 </li>
 
@@ -47,13 +47,13 @@ export default function Home() {
                     href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
                     target="_blank"
                   >
-                    <Icon.Headphones stroke-width="1.2" />
+                    <Icon.Headphones strokeWidth="1.2" />
                   </a>
                 </li>
 
                 <li>
                   <a href="mailto:gustavoscafeli@gmail.com">
-                    <Icon.Mail stroke-width="1.2" />
+                    <Icon.Mail strokeWidth="1.2" />
                   </a>
                 </li>
               </ul>
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
 
           <div className="location">
-            <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brasil
+            <Icon.Compass strokeWidth="1.2" /> Rio de Janeiro, Brasil
           </div>
 
           <div className="scafeli">
@@ -84,13 +84,10 @@ export default function Home() {
                 data-aos-duration="1500"
               >
                 <h3>
-                  Programador, criador do <a href="/">Zappy</a>, CTO do{" "}
+                  Engenheiro de software, criador do <a href="/">Zappy</a> e CTO
+                  do{" "}
                   <a href="https://anonimatta.com.br" target="_blank">
                     Anonimatta
-                  </a>{" "}
-                  e criador no{" "}
-                  <a href="https://anonimatta.com.br" target="_blank">
-                    YouTube
                   </a>
                   .
                 </h3>
@@ -111,7 +108,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/about.svg" />
                   <div className="bottom__link">
-                    Sobre <Icon.ArrowUpRight stroke-width="1.2" />
+                    Sobre <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
@@ -126,13 +123,13 @@ export default function Home() {
                 >
                   <img className="img__link" src="/projects.svg" />
                   <div className="bottom__link">
-                    Projetos <Icon.ArrowUpRight stroke-width="1.2" />
+                    Projetos <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
               </Link>
 
-              <Link href="/freebies">
+              {/* <Link href="/freebies">
                 <a
                   className="card__item card__channel"
                   data-aos="fade-up"
@@ -141,11 +138,11 @@ export default function Home() {
                 >
                   <img className="img__link" src="/freebies.svg" />
                   <div className="bottom__link">
-                    Freebies <Icon.ArrowUpRight stroke-width="1.2" />
+                    Produtos <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
-              </Link>
+              </Link> */}
 
               <Link href="/blog">
                 <a
@@ -156,11 +153,67 @@ export default function Home() {
                 >
                   <img className="img__link" src="/blog.svg" />
                   <div className="bottom__link">
-                    Blog <Icon.ArrowUpRight stroke-width="1.2" />
+                    Blog <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
               </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="products-home">
+          <div className="container">
+            <div className="row">
+              <p>Produtos</p>
+            </div>
+
+            <div className="row">
+              <div className="col-md-3">
+                <img src="https://images.unsplash.com/photo-1608883839291-d045bb16365f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHRzaGlydHxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h4>Camiseta Developer</h4>
+                <p>89.90</p>
+              </div>
+
+              <div className="col-md-3">
+                <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHNoaXJ0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h4>Camiseta MTSBWY</h4>
+                <p>89.90</p>
+              </div>
+
+              <div className="col-md-3">
+                <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHNoaXJ0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h4>Camiseta Support</h4>
+                <p>89.90</p>
+              </div>
+
+              <div className="col-md-3">
+                <img src="https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHNoaXJ0fGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                <h4>Camiseta Developer</h4>
+                <p>89.90</p>
+              </div>
+            </div>
+
+            <div className="row">
+              <a href="#">Ver mais</a>
+            </div>
+          </div>
+        </section>
+
+        <div className="container"></div>
+
+        <section className="instagram-home">
+          <div className="container">
+            <div className="instagram-home__head">
+              <p>@gustavoscafeli</p>
+              <a href="#">Seguir</a>
+            </div>
+
+            <div className="feed-instagram">
+              <img src="https://images.unsplash.com/photo-1616029832310-d07b9d4f1d0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+              <img src="https://images.unsplash.com/photo-1616933067445-4b556aa759c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+              <img src="https://images.unsplash.com/photo-1616933067445-4b556aa759c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+              <img src="https://images.unsplash.com/photo-1616933067937-e4284baf566e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
             </div>
           </div>
         </section>

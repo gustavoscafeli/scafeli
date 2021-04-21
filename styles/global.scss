@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+$primary: #101820;
+$secondary: #99764b;
+
+$text-primary: #101820;
+$text-primary-out: #71717a;
+$text-secondary: #d6d1cd;
 
 img {
   max-width: 100%;
@@ -15,6 +21,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
+  color: $text-primary;
 }
 
 @-webkit-keyframes location-rotate {
@@ -28,8 +35,6 @@ body {
     transform: translate(0, -2px) rotate(360deg);
   }
 }
-
-$primary: #656d78;
 
 .nav-fade {
   position: absolute;
@@ -95,6 +100,10 @@ header {
         a {
           padding: 10px 0;
           margin-left: 20px;
+
+          &:hover {
+            color: $secondary;
+          }
         }
       }
     }
@@ -146,7 +155,7 @@ h6,
   background-size: cover;
   position: relative;
   height: 100vh;
-  color: white !important;
+  color: $text-secondary !important;
 
   .scafeli {
     width: 380px;
@@ -162,11 +171,11 @@ h6,
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    color: white !important;
+    color: $text-secondary !important;
     z-index: 9999999;
 
     p {
-      color: white;
+      color: $text-secondary;
     }
   }
 
@@ -194,7 +203,7 @@ h6,
       li {
         display: inline-block;
         a {
-          color: white;
+          color: $text-secondary;
           padding: 10px 0;
           margin-left: 20px;
         }
@@ -219,8 +228,14 @@ h6,
   }
 
   a {
-    color: $primary;
+    color: $secondary;
   }
+}
+
+.products-home {
+  background-color: $primary;
+  color: white;
+  padding: 80px 0;
 }
 
 .error__page {
@@ -278,6 +293,26 @@ h6,
   );
 }
 
+.instagram-home {
+  padding: 100px 0;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .feed-instagram {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      max-width: calc(25% - 5px);
+      margin-bottom: 15px;
+    }
+  }
+}
+
 .cards__home {
   padding: 100px 0;
   .cards__area {
@@ -296,9 +331,9 @@ h6,
 
     .card__item {
       position: relative;
-      height: 400px;
+      height: 600px;
 
-      min-width: calc(25% - 22.5px);
+      min-width: calc(33% - 22.5px);
       color: #777777;
 
       &:nth-child(2) {
@@ -586,12 +621,12 @@ h6,
 }
 
 footer {
-  background: #000;
-  color: $primary;
+  background: #101820;
+  color: $text-primary-out;
   padding: 80px 0;
 
   a {
-    color: $primary;
+    color: $secondary;
   }
 }
 
