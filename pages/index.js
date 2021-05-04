@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gustavo Scafeli - CTO at Anonimatta</title>
+        <title>Gustavo Scafeli</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta name="description" content="Software Engineer" />
@@ -32,13 +32,13 @@ export default function Home() {
                     href="https://instagram.com/gustavoscafeli"
                     target="_blank"
                   >
-                    <Icon.Instagram stroke-width="1.2" />
+                    <Icon.Instagram strokeWidth="1.2" />
                   </a>
                 </li>
 
                 <li>
                   <a href="https://github.com/Scafeli" target="_blank">
-                    <Icon.GitHub stroke-width="1.2" />
+                    <Icon.GitHub strokeWidth="1.2" />
                   </a>
                 </li>
 
@@ -47,13 +47,13 @@ export default function Home() {
                     href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
                     target="_blank"
                   >
-                    <Icon.Headphones stroke-width="1.2" />
+                    <Icon.Headphones strokeWidth="1.2" />
                   </a>
                 </li>
 
                 <li>
                   <a href="mailto:gustavoscafeli@gmail.com">
-                    <Icon.Mail stroke-width="1.2" />
+                    <Icon.Mail strokeWidth="1.2" />
                   </a>
                 </li>
               </ul>
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
 
           <div className="location">
-            <Icon.Compass stroke-width="1.2" /> Rio de Janeiro, Brasil
+            <Icon.Compass strokeWidth="1.2" /> Rio de Janeiro, Brasil
           </div>
 
           <div className="scafeli">
@@ -84,13 +84,9 @@ export default function Home() {
                 data-aos-duration="1500"
               >
                 <h3>
-                  Programador, criador do <a href="/">Zappy</a>, CTO do{" "}
+                  Programador, criador do <a href="/">Zappy</a> e CTO no{" "}
                   <a href="https://anonimatta.com.br" target="_blank">
                     Anonimatta
-                  </a>{" "}
-                  e criador no{" "}
-                  <a href="https://anonimatta.com.br" target="_blank">
-                    YouTube
                   </a>
                   .
                 </h3>
@@ -111,7 +107,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/about.svg" />
                   <div className="bottom__link">
-                    Sobre <Icon.ArrowUpRight stroke-width="1.2" />
+                    Sobre <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
@@ -126,7 +122,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/projects.svg" />
                   <div className="bottom__link">
-                    Projetos <Icon.ArrowUpRight stroke-width="1.2" />
+                    Projetos <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
@@ -141,7 +137,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/freebies.svg" />
                   <div className="bottom__link">
-                    Freebies <Icon.ArrowUpRight stroke-width="1.2" />
+                    Freebies <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>
@@ -156,7 +152,7 @@ export default function Home() {
                 >
                   <img className="img__link" src="/blog.svg" />
                   <div className="bottom__link">
-                    Blog <Icon.ArrowUpRight stroke-width="1.2" />
+                    Blog <Icon.ArrowUpRight strokeWidth="1.2" />
                   </div>
                   <div className="bottom-fade"></div>
                 </a>

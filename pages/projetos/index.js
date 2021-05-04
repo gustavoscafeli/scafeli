@@ -10,7 +10,7 @@ export default function Projetos() {
   return (
     <div>
       <Head>
-        <title>Projects - Gustavo Scafeli</title>
+        <title>Projetos - Gustavo Scafeli</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -35,7 +35,7 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  Zappy <Icon.ArrowUpRight stroke-width="1.2" />
+                  Zappy <Icon.ArrowUpRight strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
@@ -50,7 +50,7 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  adidas® Superstar <Icon.ArrowUpRight stroke-width="1.2" />
+                  adidas® Superstar <Icon.ArrowUpRight strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
@@ -65,7 +65,7 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  Hero Content <Icon.ArrowUpRight stroke-width="1.2" />
+                  Hero Content <Icon.ArrowUpRight strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
@@ -80,7 +80,7 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  Banned Theme <Icon.ArrowUpRight stroke-width="1.2" />
+                  Banned Theme <Icon.ArrowUpRight strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
@@ -95,7 +95,37 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  Netflix <Icon.ArrowUpRight stroke-width="1.2" />
+                  Netflix <Icon.ArrowUpRight strokeWidth="1.2" />
+                </div>
+                <div className="bottom-fade"></div>
+              </a>
+            </Link>
+
+            <Link href="/blog">
+              <a
+                className="card__item"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="2500"
+              >
+                <img className="img__link" src="/logo-white.svg" />
+                <div className="bottom__link">
+                  Projeto Med <Icon.ArrowUpRight strokeWidth="1.2" />
+                </div>
+                <div className="bottom-fade"></div>
+              </a>
+            </Link>
+
+            <Link href="/blog">
+              <a
+                className="card__item"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="2500"
+              >
+                <img className="img__link" src="/logo-white.svg" />
+                <div className="bottom__link">
+                  PokeDex <Icon.ArrowUpRight strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
@@ -110,37 +140,7 @@ export default function Projetos() {
               >
                 <img className="img__link" src="/logo-white.svg" />
                 <div className="bottom__link">
-                  Projeto Med <Icon.Loader stroke-width="1.2" />
-                </div>
-                <div className="bottom-fade"></div>
-              </a>
-            </Link>
-
-            <Link href="/blog">
-              <a
-                className="card__item card__comingsoon"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-duration="2500"
-              >
-                <img className="img__link" src="/logo-white.svg" />
-                <div className="bottom__link">
-                  Mockup Zone <Icon.Loader stroke-width="1.2" />
-                </div>
-                <div className="bottom-fade"></div>
-              </a>
-            </Link>
-
-            <Link href="/blog">
-              <a
-                className="card__item card__comingsoon"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-                data-aos-duration="2500"
-              >
-                <img className="img__link" src="/logo-white.svg" />
-                <div className="bottom__link">
-                  Coming soon <Icon.Loader stroke-width="1.2" />
+                  Coming soon <Icon.Loader strokeWidth="1.2" />
                 </div>
                 <div className="bottom-fade"></div>
               </a>
