@@ -7,9 +7,7 @@ export default function Header() {
     <>
       <header>
         <Link href="/">
-          <a className="name">
-            <img src="/scafeli-logo.svg" />
-          </a>
+          <a className="name">Scafeli</a>
         </Link>
 
         <div className="social">

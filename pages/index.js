@@ -2,8 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 
 import * as Icon from "react-feather";
-
-import Footer from "../components/footer";
+import CloseFriends from "../components/CloseFriends";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -65,7 +65,8 @@ export default function Home() {
           </div>
 
           <div className="scafeli">
-            <img src="scafeli-logo-white.svg" />
+            <h1>scafeli</h1>
+            {/* <img src="scafeli-logo-white.svg" /> */}
           </div>
 
           <div className="developer">
@@ -75,16 +76,18 @@ export default function Home() {
           <div className="bottom-fade"></div>
         </section>
 
+        <CloseFriends />
+
         <section className="content__one">
           <div className="container">
             <div className="row justify-content-md-center">
-              <div
-                className="col-md-7 text-center"
-                data-aos="fade-up"
-                data-aos-duration="1500"
-              >
+              <div className="text-center">
                 <h3>
-                  Programador, criador do <a href="/">Zappy</a> e CTO no{" "}
+                  Programador, fundador do{" "}
+                  <a href="https://estudio2ois.com.br" target="_blank">
+                    2ois
+                  </a>{" "}
+                  e CTO do{" "}
                   <a href="https://anonimatta.com.br" target="_blank">
                     Anonimatta
                   </a>

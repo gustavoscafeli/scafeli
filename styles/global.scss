@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("../styles/fonts/stylesheet.css");
 
 img {
   max-width: 100%;
@@ -9,10 +9,15 @@ img {
 
 a {
   text-decoration: none;
+  transition: all ease 0.3s;
+
+  &:hover {
+    color: #29d306;
+  }
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -82,7 +87,8 @@ header {
   }
 
   .name {
-    width: 130px;
+    font-family: "monument_extendedbold";
+    text-transform: uppercase;
   }
 
   .social {
@@ -113,7 +119,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-weight: 700;
+  font-family: "monument_extendedbold";
+  text-transform: uppercase;
 }
 
 .head__page {
@@ -155,6 +162,11 @@ h6,
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
+    text-align: center;
+
+    h1 {
+      font-size: 70px;
+    }
   }
 
   .header__hero {
