@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import * as Icon from "react-feather";
 import CloseFriends from "../components/CloseFriends";
+
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -16,87 +18,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
+
       <main>
-        {/* <Header /> */}
-
-        <section data-aos="fade" data-aos-duration="1000" className="hero">
-          <div className="nav-fade"></div>
-
-          <div className="header__hero">
-            <p>Gustavo Scafeli</p>
-
-            <div className="social">
-              <ul>
-                <li>
-                  <a
-                    href="https://instagram.com/gustavoscafeli"
-                    target="_blank"
-                  >
-                    <Icon.Instagram strokeWidth="1.2" />
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://github.com/Scafeli" target="_blank">
-                    <Icon.GitHub strokeWidth="1.2" />
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
-                    target="_blank"
-                  >
-                    <Icon.Headphones strokeWidth="1.2" />
-                  </a>
-                </li>
-
-                <li>
-                  <a href="mailto:gustavoscafeli@gmail.com">
-                    <Icon.Mail strokeWidth="1.2" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="location">
-            <Icon.Compass strokeWidth="1.2" /> Rio de Janeiro, Brasil
-          </div>
-
-          <div className="scafeli">
-            <h1>scafeli</h1>
-            {/* <img src="scafeli-logo-white.svg" /> */}
-          </div>
-
-          <div className="developer">
-            <span>Photo by Samantha Gades / Unsplash</span>
-          </div>
-
-          <div className="bottom-fade"></div>
-        </section>
-
         <CloseFriends />
-
-        <section className="content__one">
-          <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="text-center">
-                <h3>
-                  Programador, fundador do{" "}
-                  <a href="https://estudio2ois.com.br" target="_blank">
-                    2ois
-                  </a>{" "}
-                  e CTO do{" "}
-                  <a href="https://anonimatta.com.br" target="_blank">
-                    Anonimatta
-                  </a>
-                  .
-                </h3>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section className="cards__home">
           <div className="container">

@@ -71,17 +71,6 @@ $primary: #656d78;
 }
 
 header {
-  max-width: 90%;
-  margin: 0 auto;
-
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 2px;
-  z-index: 999999;
-  top: 0;
-
   a {
     color: #212529;
   }
@@ -144,95 +133,6 @@ h6,
 
 .primary-color {
   color: $primary;
-}
-
-.hero {
-  background: url("https://images.unsplash.com/photo-1573169128228-31137c599d3d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80");
-  min-height: 500px;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-  color: white !important;
-
-  .scafeli {
-    width: 380px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 999;
-    text-align: center;
-
-    h1 {
-      font-size: 70px;
-    }
-  }
-
-  .header__hero {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    color: white !important;
-    z-index: 9999999;
-
-    p {
-      color: white;
-    }
-  }
-
-  .location {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    display: flex;
-    align-items: center;
-    z-index: 99;
-
-    svg {
-      margin-right: 10px;
-      transform: translate(0, -2px);
-      -webkit-animation: location-rotate 2s ease-in-out;
-      -webkit-animation-iteration-count: infinite;
-    }
-  }
-
-  .social {
-    z-index: 99;
-    ul {
-      padding: 0;
-      margin: 0;
-      li {
-        display: inline-block;
-        a {
-          color: white;
-          padding: 10px 0;
-          margin-left: 20px;
-        }
-      }
-    }
-  }
-
-  .developer {
-    position: absolute;
-    bottom: 30px;
-    right: 40px;
-    z-index: 99;
-  }
-}
-
-.content__one {
-  padding: 120px 0;
-
-  h3 {
-    line-height: 1.7;
-    margin-bottom: 0;
-  }
-
-  a {
-    color: $primary;
-  }
 }
 
 .error__page {
@@ -608,27 +508,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-  // body {
-  //   background-color: lightblue;
-  // }
-
-  header {
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: block;
-
-    .name {
-      img {
-        width: 120px !important;
-      }
-    }
-
-    .social {
-      display: none;
-    }
-  }
-
   .head__page {
     border-bottom: 1px solid #e1e1e1;
     padding-bottom: 20px;
