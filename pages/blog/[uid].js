@@ -14,7 +14,6 @@ import { client } from "../../lib/prismic-configuration";
 //COMPONENTS
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import Sidebar from "../../components/sidebar";
 
 export default function BlogPost({ post }) {
   return (
@@ -35,7 +34,7 @@ export default function BlogPost({ post }) {
       <Header />
 
       <div className="container blog__area">
-        <div className="row justify-content-between">
+        <div className="row">
           <div
             data-aos="fade"
             data-aos-duration="1000"
@@ -60,8 +59,18 @@ export default function BlogPost({ post }) {
               </a>
             </Link>
           </div>
-          <div className="col-md-3">
-            <Sidebar />
+          <div className="col-md-4">
+            <div className="profile__sidebar">
+              <div className="background__profile"></div>
+              <div
+                className="photo__profile"
+                // src="https://images.unsplash.com/photo-1616440537338-1d04df3987f7?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              ></div>
+
+              <h3>Gustavo Scafeli</h3>
+
+              <a href="#">Get in touch</a>
+            </div>
           </div>
         </div>
       </div>

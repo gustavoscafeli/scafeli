@@ -2,12 +2,15 @@ import Link from "next/link";
 
 export default function ErrorPage() {
   return (
-    <div className="error__page">
-      <div className="content">
-        <h1>¯\_(ツ)_/¯</h1>
-        <p>A página que você está procurando não existe.</p>
+    <div className="container text-center">
+      <h1>404</h1>
+      <p>Página não encontrada.</p>
+
+      <img src="https://i.giphy.com/media/3qDfYxxBcAeRO/giphy.webp" />
+
+      <div>
         <Link href="/">
-          <a>Clique aqui para voltar</a>
+          <h6>voltar</h6>
         </Link>
       </div>
     </div>
