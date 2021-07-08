@@ -1,5 +1,3 @@
-import * as Icon from "react-feather";
-
 export default function CloseFriends() {
   return (
     <>
