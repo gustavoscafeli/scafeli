@@ -25,11 +25,6 @@ export default function Header() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <Link href="/">
-                    <a class="nav-link">Home</a>
-                  </Link>
-                </li>
-                <li class="nav-item">
                   <Link href="/sobre">
                     <a class="nav-link">Sobre</a>
                   </Link>
@@ -58,7 +53,10 @@ export default function Header() {
                     </li>
 
                     <li>
-                      <a href="https://github.com/Scafeli" target="_blank">
+                      <a
+                        href="https://github.com/gustavoscafeli"
+                        target="_blank"
+                      >
                         <Icon.GitHub strokeWidth="1.2" />
                       </a>
                     </li>

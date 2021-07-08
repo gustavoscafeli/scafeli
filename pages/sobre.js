@@ -35,13 +35,6 @@ export default function Sobre() {
         <div className="row">
           <div className="col-md-6">
             <p>Olá, meu nome é Gustavo Scafeli.</p>
-            <p>
-              Nasci em 1990 no Rio de Janeiro, me apaixonei por tecnologia na
-              infância e fiz o meu primeiro site no início da adolescência.
-              Criei esse site para compartilhar um pouco da minha experiência
-              com outros programadores e pessoas interessadas em ingressar no
-              mundo da programação.
-            </p>
 
             <p>
               <a href="#">Clique aqui</a> para ver minha linha do tempo.
@@ -51,12 +44,6 @@ export default function Sobre() {
           </div>
 
           <div className="col-md-2 offset-md-1">
-            <p>
-              Selecionei alguns parceiros com quem tive o prazer de trabalhar.
-              Aproveito aqui o espaço para agradecer a confiança depositada no
-              meu trabalho.
-            </p>
-
             <p>
               <Icon.Minus strokeWidth="1.2" /> Adidas
             </p>

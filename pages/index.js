@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 
 import * as Icon from "react-feather";
-import CloseFriends from "../components/CloseFriends";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -21,8 +20,6 @@ export default function Home() {
       <Header />
 
       <main>
-        <CloseFriends />
-
         <section className="cards__home">
           <div className="container">
             <div className="cards__area">
