@@ -3,8 +3,8 @@ import Link from "next/link";
 
 import * as Icon from "react-feather";
 
-import Header from "../../components/header";
-import Footer from "../../components/footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function Projetos() {
   return (

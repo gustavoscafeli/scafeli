@@ -12,8 +12,8 @@ import linkResolver from "../../lib/linkResolver";
 import { client } from "../../lib/prismic-configuration";
 
 //COMPONENTS
-import Header from "../../components/header";
-import Footer from "../../components/footer";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function BlogPost({ post }) {
   return (
