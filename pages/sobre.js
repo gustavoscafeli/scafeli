@@ -27,7 +27,7 @@ export default function Sobre() {
       >
         <div className="head__page">
           <h1>Sobre</h1>
-          <p classNam="lead">
+          <p className="lead">
             Uma breve descrição sobre a minha trajetória profissional.
           </p>
         </div>

@@ -13,7 +13,10 @@ export default function Home() {
         <title>Gustavo Scafeli - Software Engineer</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
-        <meta name="description" content="Software Engineer" />
+        <meta
+          name="description"
+          content="Senior Software Engineer, JavaScript enthusiast and educator."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

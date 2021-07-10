@@ -7,12 +7,12 @@ export default function Header() {
     <>
       <header>
         <div className="container">
-          <nav class="navbar navbar-expand-lg navbar-light">
+          <nav className="navbar navbar-expand-lg navbar-light">
             <Link href="/">
-              <a class="navbar-brand">Gustavo Scafeli</a>
+              <a className="navbar-brand">Gustavo Scafeli</a>
             </Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -20,27 +20,30 @@ export default function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
                   <Link href="/sobre">
-                    <a class="nav-link">Sobre</a>
+                    <a className="nav-link">Sobre</a>
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link href="/posts">
-                    <a class="nav-link">Posts</a>
+                    <a className="nav-link">Posts</a>
                   </Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link href="/projetos">
-                    <a class="nav-link">Projetos</a>
+                    <a className="nav-link">Projetos</a>
                   </Link>
                 </li>
               </ul>
-              <form class="d-flex">
+              <form className="d-flex">
                 <div className="social">
                   <ul>
                     <li>
