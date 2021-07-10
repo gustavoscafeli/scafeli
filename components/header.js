@@ -30,8 +30,8 @@ export default function Header() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link href="/blog">
-                    <a class="nav-link">Blog</a>
+                  <Link href="/posts">
+                    <a class="nav-link">Posts</a>
                   </Link>
                 </li>
                 <li class="nav-item">
