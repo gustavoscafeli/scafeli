@@ -15,7 +15,8 @@ export default function Index({ allPosts }) {
         <Head>
           <title>Next.js Blog Example with</title>
         </Head>
-        <div>
+
+        <div className="container">
           {/* <Intro /> */}
           {heroPost && (
             <HeroPost
@@ -27,7 +28,9 @@ export default function Index({ allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          <div className="row">
+            {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          </div>
         </div>
       </Layout>
     </>

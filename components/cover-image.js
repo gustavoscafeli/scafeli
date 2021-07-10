@@ -10,9 +10,10 @@ export default function CoverImage({ title, src, slug, height, width }) {
       className={cn("shadow-sm", {
         "hover:shadow-md transition-shadow duration-200": slug,
       })}
-      layout="responsive"
-      width={width}
-      height={height}
+      // layout="responsive"
+      layout="intrinsic"
+      width={700}
+      height={475}
     />
   );
   return (

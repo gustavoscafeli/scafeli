@@ -39,55 +39,6 @@ export default function Sobre() {
             <p>
               <a href="#">Clique aqui</a> para ver minha linha do tempo.
             </p>
-
-            <p>É só o início.</p>
-          </div>
-
-          <div className="col-md-2 offset-md-1">
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Adidas
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Microsoft
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Attech Sea
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Big Brain Education
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> RR MakeUp
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> CFB7 Brasil
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Academias Be Fit
-            </p>
-          </div>
-          <div className="col-md-2 offset-md-1">
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Petrobras
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> OLGA Music
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Fredy Miller
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> IQ - UFRJ
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> MCP Performance
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Prefeitura do Rio
-            </p>
-            <p>
-              <Icon.Minus strokeWidth="1.2" /> Adidas
-            </p>
           </div>
         </div>
       </div>
