@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer>
         <div className="container">
-          <p>© 2021 Gustavo Scafeli.</p>
+          <p>© 2021 Gustavo Scafeli</p>
         </div>
       </footer>
     </>

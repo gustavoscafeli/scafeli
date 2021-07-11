@@ -3,14 +3,13 @@ import Link from "next/link";
 
 import * as Icon from "react-feather";
 
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Head>
-        <title>Gustavo Scafeli - Software Engineer</title>
+        <title>Gustavo Scafeli</title>
 
         <meta name="og:title" property="og:title" content="Gustavo Scafeli" />
         <meta
@@ -20,9 +19,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <div className="container">
+        <p>Hi, my name is</p>
+        <h1>
+          Gustavo Scafeli. <br />
+          Software Engineer and Ethical Hacker.
+        </h1>
 
-      <Footer />
-    </div>
+        <img src="https://images.unsplash.com/photo-1590212151175-e58edd96185b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" />
+      </div>
+    </Layout>
   );
 }

@@ -2,3 +2,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.social {
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      padding-left: 15px;
+    }
+  }
+}

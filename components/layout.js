@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <>
       {/* <Meta /> */}
       <Header />
-      <div className="min-h-screen">
+      <div data-aos="fade" data-aos-duration="500">
         <main>{children}</main>
       </div>
       <Footer />

@@ -1,18 +1,21 @@
 import Link from "next/link";
+import Layout from "../components/layout";
 
 export default function ErrorPage() {
   return (
-    <div className="container text-center">
-      <h1>404</h1>
-      <p>Página não encontrada.</p>
+    <Layout>
+      <div className="container text-center">
+        <h1>404</h1>
+        <p>Page not found.</p>
 
-      <img src="https://i.giphy.com/media/3qDfYxxBcAeRO/giphy.webp" />
+        <img src="https://i.giphy.com/media/3qDfYxxBcAeRO/giphy.webp" />
 
-      <div>
-        <Link href="/">
-          <h6>voltar</h6>
-        </Link>
+        <div>
+          <Link href="/">
+            <h6>return</h6>
+          </Link>
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 }

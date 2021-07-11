@@ -1,6 +1,13 @@
+import React from "react";
 import Link from "next/link";
 
 import * as Icon from "react-feather";
+import UseAnimations from "react-useanimations";
+
+import github from "react-useanimations/lib/github";
+import instagram from "react-useanimations/lib/instagram";
+import twitter from "react-useanimations/lib/twitter";
+import linkedin from "react-useanimations/lib/linkedin";
 
 export default function Header() {
   return (
@@ -28,8 +35,8 @@ export default function Header() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link href="/sobre">
-                    <a className="nav-link">Sobre</a>
+                  <Link href="/about">
+                    <a className="nav-link">About</a>
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -38,8 +45,8 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/projetos">
-                    <a className="nav-link">Projetos</a>
+                  <Link href="/works">
+                    <a className="nav-link">Works</a>
                   </Link>
                 </li>
               </ul>
@@ -51,7 +58,7 @@ export default function Header() {
                         href="https://instagram.com/gustavoscafeli"
                         target="_blank"
                       >
-                        <Icon.Instagram strokeWidth="1.2" />
+                        <UseAnimations animation={instagram} size={26} />
                       </a>
                     </li>
 
@@ -60,7 +67,7 @@ export default function Header() {
                         href="https://github.com/gustavoscafeli"
                         target="_blank"
                       >
-                        <Icon.GitHub strokeWidth="1.2" />
+                        <UseAnimations animation={github} size={26} />
                       </a>
                     </li>
 
@@ -69,13 +76,13 @@ export default function Header() {
                         href="https://open.spotify.com/playlist/2pyh0HmN7slLDoeky6aNIt?si=GkqlN2GkQnidcsMJFuvorg"
                         target="_blank"
                       >
-                        <Icon.Headphones strokeWidth="1.2" />
+                        <UseAnimations animation={linkedin} size={26} />
                       </a>
                     </li>
 
                     <li>
                       <a href="mailto:gustavoscafeli@gmail.com">
-                        <Icon.Mail strokeWidth="1.2" />
+                        <UseAnimations animation={twitter} size={26} />
                       </a>
                     </li>
                   </ul>
